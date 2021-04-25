@@ -152,20 +152,20 @@ $(document).ready(function(event){
     return;
     }
     var pname, cname, tname, subTotalPriceA
-//     var pname = ($("#pizzaSizeSelected").find('option:selected').text());
-//     var cname = ($("#pizzaCrustSelected").find('option:selected').text());
-//     var tname =($("#toppingSelected").find('option:selected').text());
-//     var subTotalPriceA = pizzaPrice + crustPrice + toppingPrice;
-//     var newOrder= new Order(pname,cname,tname,subTotalPrice);
+    var pname = ($("#pizzaSizeSelected").find('option:selected').text());
+    var cname = ($("#pizzaCrustSelected").find('option:selected').text());
+    var tname =($("#toppingSelected").find('option:selected').text());
+    var subTotalPriceA = pizzaPrice + crustPrice + toppingPrice;
+    var newOrder= new Order(pname,cname,tname,subTotalPrice);
     
-//     $("#listOfItems").append('<tr><td id ="Pizza">' + "Pizza" + '<td id="pizSize">'+ newOrder.size + '</td><td id ="pizCrust">' + newOrder.crust + '</td><td id="pizTop">' + newOrder.toppings + '</td><td id ="subTPrice">' + newOrder.subTotalPrice +'</td></tr>');
+    $("#listOfItems").append('<tr><td id ="Pizza">' + "Pizza" + '<td id="pizSize">'+ newOrder.size + '</td><td id ="pizCrust">' + newOrder.crust + '</td><td id="pizTop">' + newOrder.toppings + '</td><td id ="subTPrice">' + newOrder.subTotalPrice +'</td></tr>');
     
     
-//     });
-//     });
+    });
+    });
     
-//     });
+    });
     
-//     });
+    });
     
     
