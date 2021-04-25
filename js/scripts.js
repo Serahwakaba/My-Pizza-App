@@ -13,32 +13,32 @@ $(document).ready(function(event){
     });
 });
 
-// $(document).ready(function(event){
-//     $("#addToCart").click(function(){
-//     var pizzaSize = $("#pizzaSizeSelected").val();
-//     var crust = $("#pizzaCrustSelected").val();
-//     var toppings = $("#toppingSelected").val();
-//     var delivery = $("#deliveryOptionSelected").val();
-//     if((pizzaSize == "0") || (crust == "0") || (toppings == "0") || delivery == "0"){
-//         alert("Please fill in all required fields!");
-//         } else {
-//         $("#itemsCart").show();
-//         };
-// // alerting delivery option
-// var deliveryCost=""
-// if(delivery == "2"){
+$(document).ready(function(event){
+    $("#addToCart").click(function(){
+    var pizzaSize = $("#pizzaSizeSelected").val();
+    var crust = $("#pizzaCrustSelected").val();
+    var toppings = $("#toppingSelected").val();
+    var delivery = $("#deliveryOptionSelected").val();
+    if((pizzaSize == "0") || (crust == "0") || (toppings == "0") || delivery == "0"){
+        alert("Please fill in all required fields!");
+        } else {
+        $("#itemsCart").show();
+        };
+// alerting delivery option
+var deliveryCost=""
+if(delivery == "2"){
 
-// var location = prompt("Enter delivery loaction")
-// var deliveryCost = parseInt(150);
-// alert("Cool, Your order shall be delivered at" + " " +location)
+var location = prompt("Enter delivery loaction")
+var deliveryCost = parseInt(150);
+alert("Cool, Your order shall be delivered at" + " " +location)
 
-// var location = prompt("Where would you want your delivery done?")
-// var deliveryCost = parseInt(150);
-// alert("Confirmed, Your order shall be delivered at" + " " +location)
+var location = prompt("Where would you want your delivery done?")
+var deliveryCost = parseInt(150);
+alert("Confirmed, Your order shall be delivered at" + " " +location)
 
-// } else {
-// var deliveryCost = parseInt(0);
-// };
+} else {
+var deliveryCost = parseInt(0);
+};
 
 // var pizzaPrice = "";
 // switch(pizzaSize){
