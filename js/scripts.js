@@ -100,20 +100,20 @@ default:
 console.log("No price");
 
 };
-// var subTotalPrice = parseInt(pizzaPrice) + parseInt(crustPrice) + parseInt(toppingPrice)
-// console.log(subTotalPrice)
-// let checkOutTotal =0;
-// checkOutTotal = checkOutTotal + subTotalPrice +deliveryCost;
+var subTotalPrice = parseInt(pizzaPrice) + parseInt(crustPrice) + parseInt(toppingPrice)
+console.log(subTotalPrice)
+let checkOutTotal =0;
+checkOutTotal = checkOutTotal + subTotalPrice +deliveryCost;
 
-// $("#pizSize").html($("#pizzaSizeSelected").find('option:selected').text());
-// $("#pizCrust").html($("#pizzaCrustSelected").find('option:selected').text());
-// $("#pizTop").html($("#toppingSelected").find('option:selected').text());
-// $("#subTPrice").html(subTotalPrice);
+$("#pizSize").html($("#pizzaSizeSelected").find('option:selected').text());
+$("#pizCrust").html($("#pizzaCrustSelected").find('option:selected').text());
+$("#pizTop").html($("#toppingSelected").find('option:selected').text());
+$("#subTPrice").html(subTotalPrice);
 
-// $('#pizzaSizeSelected').prop('selectedIndex',0);
-// $('#pizzaCrustSelected').prop('selectedIndex',0);
-// $('#toppingSelected').prop('selectedIndex',0);
-// $('#deliveryOptionSelected').prop('selectedIndex',0);
+$('#pizzaSizeSelected').prop('selectedIndex',0);
+$('#pizzaCrustSelected').prop('selectedIndex',0);
+$('#toppingSelected').prop('selectedIndex',0);
+$('#deliveryOptionSelected').prop('selectedIndex',0);
 
 // // Proceed to Checkout Button
 // $(document).ready(function(){
