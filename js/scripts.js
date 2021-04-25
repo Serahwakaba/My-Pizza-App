@@ -137,21 +137,21 @@ alert("Thank you" + " " +client+"," + " "+ "Enjoy the Meal, Prepare the Total am
 event.preventDefault();
 });
 });
-//     // Add Item Button
-// $(document).ready(function(event){
-//     $("#addItem").click(function(){
-//     $("#addToCart").hide();
+    // Add Item Button
+$(document).ready(function(event){
+    $("#addItem").click(function(){
+    $("#addToCart").hide();
     
-//     var pizzaSize = $("#pizzaSizeSelected").val();
-//     var crust = $("#pizzaCrustSelected").val();
-//     var toppings = $("#toppingSelected").val();
-//     var delivery = $("#deliveryOptionSelected").val();
+    var pizzaSize = $("#pizzaSizeSelected").val();
+    var crust = $("#pizzaCrustSelected").val();
+    var toppings = $("#toppingSelected").val();
+    var delivery = $("#deliveryOptionSelected").val();
     
-//     if((pizzaSize == "0") || (crust == "0") || (toppings == "0") || delivery == "0"){
-//     alert("Please fill in all required fields!");
-//     return;
-//     }
-//     var pname, cname, tname, subTotalPriceA
+    if((pizzaSize == "0") || (crust == "0") || (toppings == "0") || delivery == "0"){
+    alert("Please fill in all required fields!");
+    return;
+    }
+    var pname, cname, tname, subTotalPriceA
 //     var pname = ($("#pizzaSizeSelected").find('option:selected').text());
 //     var cname = ($("#pizzaCrustSelected").find('option:selected').text());
 //     var tname =($("#toppingSelected").find('option:selected').text());
