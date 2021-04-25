@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah's Pizza</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+ 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,39 +14,160 @@
     <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="home">
-    <nav class="nav">
-        <div class="container">
-            <div class="logo">
-                <a href="#">Your Logo</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Order</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
-        </div>
-    </nav>
+<!--Navbar-->
+<div class="wrapper">
+    <header>
+    <nav>
+    <div class="menu">
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#order">Order</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+  </nav>
+
     <div id="text1">
-        <p>Tasty Pizza</p>
+    <p>Sarah's Pizza</p>
+    </div>
+    </header>
+   
+  <h1>hello</h1>  
+</section>
+<!--Oder section-->
+<!-- <div id="order">
+  <header class="masthead">
+    <div class="container h-80">
+    <div class="row h-100 align-items-center">
+    <div class="col-9 text-center">
+    <div class="card" id=itemsCart>
+    <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <table class="table table-sm">
+        <thead>
+        <tr>
+        <th>Item</th>
+        <th>Size</th>
+        <th>Crust</th>
+        <th>Toppings</th>
+        <th>Sub-Total</th>
+        </tr>
+        </thead>
+        <tbody id="listOfItems">
+        <tr>
+        <td id ="Pizza">Pizza</td>
+        <td id="pizSize"></td>
+        <td id="pizCrust"></td>
+        <td id="pizTop"></td>
+        <td id="subTPrice"></td>
+        </tr>
+        </tbody>
+        </table>
+        <p id=deliveryCost></p>
+        <p id=totalCost></p>
+        <footer class="blockquote-footer"><cite title="Source Title"></cite></footer>
+        <button type="button" class="btn btn-outline-info" id="addItem">Add Item</button>
+        <a href="#" class="btn btn-primary" id= checkOut>Proceed to checkout</a>
+        </blockquote>
         </div>
-        </nav>
-        </header>
-        <!------About Us section-------->
-        <div id="about">
-        <h4>Best tasting pizza</h4>
-        <p>A Pizza Inn pizza box might be one of the most recognisable icons of Africa. Whichever way you slice it, Pizza Inn is an industry leader in the quick service pizza game. The ?rst Pizza Inn outlet opened its doors in 1994 in Harare, Zimbabwe, and rose quickly in popularity. Serving hot oven-fresh pizza with its signature all-natural tomato sauce and using only the freshest ingredients, Pizza Inn has established itself at the top of the industry and is easily one of the first choices in quick service pizza in Africa.</p>
         </div>
-        
-</section>s
+        <p><button type="button" class="btn btn-outline-info" id="orderNow">Order now</button></p>
+        </div>
+    
+
+    
+    <div class="col-3 text-center" id="orderForm">
+    <h3>Order Request</h3>
+    <select class="browser-default custom-select mb-4" id="pizzaSizeSelected">
+    <option value="0" selected >Choose your pizza size</option>
+    <option value="1">Small</option>
+    <option value="2">Medium </option>
+    <option value="3">Large</option>
+    </select>
+    <select class="browser-default custom-select mb-4" id="pizzaCrustSelected">
+    <option value="0" selected>Choose your spice preference</option>
+    <option value="1" class= "Crispy">Crispy</option>
+    <option value="2" Class ="Stuffed">Stuffed</option>
+    <option value="3" Class="Gluteen-Free">Gluteen-free</option>
+    </select>
+    <select class="browser-default custom-select mb-4" id="toppingSelected">
+    <option value="0" selected>Choose topings</option>
+    <option value="1" class ="None">Watermelon</option>
+    <option value="2"class="Cocktail">Onions</option>
+    <option value="3" class="Soda">Garlic</option>
+    <option value="4"class="Water">Biitroot</option>
+    </select>
+    <select class="browser-default custom-select mb-4" id="deliveryOptionSelected">
+    <option value="0" selected>Choose your delivery option</option>
+    <option value="1">Collection</option>
+    <option value="2">Delivery</option>
+    </select>
+    <button type="button" class="btn btn-outline-info" id="addToCart" reset()>Add to cart</button>
+    </div>
+    
+    </div>
+    
+    </div>
+    
+  </header>
+  </div>
+    
+
+
+    <!-- Footer -->
+    <div class="f">
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!--Grid row-->
+      <div class="row">
+  
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+  
+          <!-- Form -->
+          <form class="form-inline">
+            <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+              aria-label="Search">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </form>
+          <!-- Form -->
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-md-6 mb-4">
+  
+          <form class="input-group">
+            <input type="text" class="form-control form-control-sm" placeholder="Your email"
+              aria-label="Your email" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+            </div>
+          </form>
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+</div> -->
+  <!-- Footer -->
     <script   src="js/jquery-3.6.0.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
