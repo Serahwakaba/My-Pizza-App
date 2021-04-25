@@ -7,11 +7,11 @@ var pizzaSize, crust, toppings, subTotalPrice;
 
 };
 
-// $(document).ready(function(event){
-//     $("#orderNow").click(function(){
-//     $("#orderForm").show();
-//     });
-// });
+$(document).ready(function(event){
+    $("#orderNow").click(function(){
+    $("#orderForm").show();
+    });
+});
 
 // $(document).ready(function(event){
 //     $("#addToCart").click(function(){
