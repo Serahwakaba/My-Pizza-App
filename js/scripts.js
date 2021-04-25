@@ -115,28 +115,28 @@ $('#pizzaCrustSelected').prop('selectedIndex',0);
 $('#toppingSelected').prop('selectedIndex',0);
 $('#deliveryOptionSelected').prop('selectedIndex',0);
 
-// // Proceed to Checkout Button
-// $(document).ready(function(){
-// $("#checkOut").click(function(){
-// console.log(("Your delivery cost is" + " KES "+deliveryCost));
+// Proceed to Checkout Button
+$(document).ready(function(){
+$("#checkOut").click(function(){
+console.log(("Your delivery cost is" + " KES "+deliveryCost));
 
-// // $("#deliveryCost").append("delivery fee" + " KES "+deliveryCost);
-// // console.log("Total Amount Payable =" +checkOutTotal);
-// // $("#totalCost").append("Total Amount Payable = KES" +checkOutTotal);
-// // var client = prompt("Username?");
-// // var Contact = prompt("For easier communcation, provide us with your contact as well");
-// // alert("Thank you" + " " +client+"," + " "+ "Welcome back to enjoy our servises")
-
-// $("#deliveryCost").append("Your delivery cost is" + " KES "+deliveryCost);
+// $("#deliveryCost").append("delivery fee" + " KES "+deliveryCost);
 // console.log("Total Amount Payable =" +checkOutTotal);
 // $("#totalCost").append("Total Amount Payable = KES" +checkOutTotal);
-// var client = prompt("Your name Please?");
+// var client = prompt("Username?");
 // var Contact = prompt("For easier communcation, provide us with your contact as well");
-// alert("Thank you" + " " +client+"," + " "+ "Enjoy the Meal, Prepare the Total amount billed, Delivery shall be done within 20 minutes. Be sure to give us feedback")
+// alert("Thank you" + " " +client+"," + " "+ "Welcome back to enjoy our servises")
 
-// event.preventDefault();
-// });
-// });
+$("#deliveryCost").append("Your delivery cost is" + " KES "+deliveryCost);
+console.log("Total Amount Payable =" +checkOutTotal);
+$("#totalCost").append("Total Amount Payable = KES" +checkOutTotal);
+var client = prompt("Your name Please?");
+var Contact = prompt("For easier communcation, provide us with your contact as well");
+alert("Thank you" + " " +client+"," + " "+ "Enjoy the Meal, Prepare the Total amount billed, Delivery shall be done within 20 minutes. Be sure to give us feedback")
+
+event.preventDefault();
+});
+});
 //     // Add Item Button
 // $(document).ready(function(event){
 //     $("#addItem").click(function(){
