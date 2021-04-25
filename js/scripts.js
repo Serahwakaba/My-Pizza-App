@@ -1,11 +1,11 @@
-// var pizzaSize, crust, toppings, subTotalPrice;
-//  function Order(pizzaSize,crust,toppings,subTotalPrice){
-//     this.size= pizzaSize;
-//     this.crust=crust;
-//     this.toppings=toppings;
-//     this.subTotalPrice=subTotalPrice;
+var pizzaSize, crust, toppings, subTotalPrice;
+ function Order(pizzaSize,crust,toppings,subTotalPrice){
+    this.size= pizzaSize;
+    this.crust=crust;
+    this.toppings=toppings;
+    this.subTotalPrice=subTotalPrice;
 
-// };
+};
 
 // $(document).ready(function(event){
 //     $("#orderNow").click(function(){
