@@ -17,9 +17,8 @@ html, body {
     line-height: 60px;
     
     }
-    #orderForm{
-        padding-top:10%;
-    }
+    
+   
     
     
     nav ul {
@@ -52,9 +51,12 @@ html, body {
     text-shadow: 3px 3px 3px red;
     }
     
-    /**********logo*********/
-    
-    
+    /**********menu*********/
+    .center{
+        font-size: 5%;
+        font-weight:normal;
+        font-family:'Courier New', Courier, monospace;
+    }
     /*********** Header Section **********/
     header {
     width: 100%;
@@ -62,6 +64,13 @@ html, body {
     background: url(../images/background.jpg) no-repeat 50% 50%;
     background-size: cover;
     background-attachment: fixed;
+    }
+    .order{
+        margin-top: 10%;
+        height:4%;
+    }
+    #indexl{
+        padding-bottom:3%;
     }
     
     #text1{
@@ -73,7 +82,11 @@ html, body {
     text-shadow: 3px 3px 3px red;
     }
    
-    
+    .container{
+        background-image: linear-gradient(black,red);
+
+
+    }
 
     .page-footer font-small special-color-dark pt-4{
         background: black;
