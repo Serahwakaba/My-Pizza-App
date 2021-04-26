@@ -31,6 +31,10 @@ To access this project on your local files, you can clone it using these steps
 5. css
 6.GIT
 
+## contact info
+
+*Email saragathoni888@gmail.com
+
 ### Live Site
 View [live](https://Serahwakaba.github.io/My-Pizza-App.git)
 
